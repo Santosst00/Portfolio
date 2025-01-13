@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luan Felipe - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar"></div>
+
+    <!-- Theme & Language Switchers -->
+    <div class="theme-switch">
+        <button id="theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+    <div class="lang-switch">
+        <button id="lang-toggle" aria-label="Toggle language">
+            <i class="fas fa-globe"></i>
+        </button>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#"><span>Luan</span> Felipe</a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#home" data-i18n="nav.home">Início</a></li>
+                    <li><a href="#stack" data-i18n="nav.stack">Stack</a></li>
+                    <li><a href="#blog" data-i18n="nav.blog">Blog</a></li>
+                    <li><a href="#contato" data-i18n="nav.contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="topo-do-site" id="home">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1 data-i18n="hero.title">Olá, eu sou <span>Luan Felipe</span></h1>
+                        <p data-i18n="hero.description">Desenvolvedor Full Stack e Especialista em No-Code. Transformando ideias em soluções digitais inovadoras.</p>
+                        <a href="#contato" class="contact-btn" data-i18n="hero.cta">Entre em Contato</a>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="Asserts/foto luan .png" alt="Luan Felipe">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stack Section -->
+        <section class="stack" id="stack">
+            <div class="interface">
+                <h2 class="titulo" data-i18n="stack.title">Stack <span>Tecnológico</span></h2>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <i class="fas fa-cube tech-icon"></i>
+                        <h3>Bubble.io</h3>
+                        <div class="tech-level">
+                            <div class="level-bar" data-level="95"></div>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-mobile-alt tech-icon"></i>
+                        <h3>FlutterFlow</h3>
+                        <div class="tech-level">
+                            <div class="level-bar" data-level="90"></div>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-brain tech-icon"></i>
+                        <h3>AI</h3>
+                        <div class="tech-level">
+                            <div class="level-bar" data-level="85"></div>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-code tech-icon"></i>
+                        <h3>HTML/CSS</h3>
+                        <div class="tech-level">
+                            <div class="level-bar" data-level="90"></div>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fab fa-js tech-icon"></i>
+                        <h3>JavaScript</h3>
+                        <div class="tech-level">
+                            <div class="level-bar" data-level="85"></div>
+                        </div>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fab fa-python tech-icon"></i>
+                        <h3>Python</h3>
+                        <div class="tech-level">
+                            <div class="level-bar" data-level="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section class="blog" id="blog">
+            <div class="interface">
+                <h2 class="titulo" data-i18n="blog.title">Meu <span>Blog</span></h2>
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="images/blog-nocode.jpg" alt="No-Code Future">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-tag">No-Code</span>
+                            <h3 data-i18n="blog.post1.title">O Futuro do Desenvolvimento No-Code</h3>
+                            <p data-i18n="blog.post1.excerpt">Como o No-Code está revolucionando o desenvolvimento de software e democratizando a criação digital.</p>
+                            <div class="blog-footer">
+                                <span class="blog-date">15 Out 2023</span>
+                                <a href="#" class="read-more" data-i18n="blog.readMore">Ler mais <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="images/blog-flutterflow.jpg" alt="FlutterFlow Mobile">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-tag">Mobile</span>
+                            <h3 data-i18n="blog.post2.title">Desenvolvimento Mobile com FlutterFlow</h3>
+                            <p data-i18n="blog.post2.excerpt">Um guia prático sobre como criar aplicativos móveis profissionais usando FlutterFlow.</p>
+                            <div class="blog-footer">
+                                <span class="blog-date">10 Out 2023</span>
+                                <a href="#" class="read-more" data-i18n="blog.readMore">Ler mais <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="images/blog-ai.jpg" alt="AI Practice">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-tag">AI</span>
+                            <h3 data-i18n="blog.post3.title">Inteligência Artificial na Prática</h3>
+                            <p data-i18n="blog.post3.excerpt">Casos reais de como a IA está transformando o desenvolvimento de software e negócios.</p>
+                            <div class="blog-footer">
+                                <span class="blog-date">5 Out 2023</span>
+                                <a href="#" class="read-more" data-i18n="blog.readMore">Ler mais <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contato" id="contato">
+            <div class="interface">
+                <h2 class="titulo" data-i18n="contact.title">Entre em <span>Contato</span></h2>
+                <div class="flex">
+                    <div class="contato-info">
+                        <div class="info-box">
+                            <i class="fas fa-envelope"></i>
+                            <h3 data-i18n="contact.email">Email</h3>
+                            <p>luanfelipers12@gmail.com</p>
+                        </div>
+                        <div class="info-box">
+                            <i class="fas fa-phone"></i>
+                            <h3 data-i18n="contact.phone">Telefone</h3>
+                            <p>+55 (11) 94744-3796</p>
+                        </div>
+                        <div class="info-box">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3 data-i18n="contact.location">Localização</h3>
+                            <p>São Paulo, Brasil</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/Santosst00" class="social-btn" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/luan-felipe-santos-dos-santos-a1b4b0189/" class="social-btn" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://wa.me/5511947443796" class="social-btn" target="_blank" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contato-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name" data-i18n="contact.form.name">Nome</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email" data-i18n="contact.form.email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" required></textarea>
+                            <label for="message" data-i18n="contact.form.message">Mensagem</label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span data-i18n="contact.form.submit">Enviar Mensagem</span>
+                            <i class="fas fa-paper-plane submit-icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="interface">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Luan <span>Felipe</span></h3>
+                    <p data-i18n="footer.description">Transformando ideias em realidade digital</p>
+                </div>
+                <a href="#contato" class="contact-btn" data-i18n="footer.cta">Vamos Conversar</a>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2023 Luan Felipe. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
